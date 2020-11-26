@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 header{
     width: 100%;
     height: 90px;
@@ -101,7 +104,7 @@ section ul li a img{
 }
 .bas{
     width: 80%;
-    height: 702px;
+    height: 708px;
    
     
 }
@@ -126,6 +129,7 @@ section ul li a img{
     margin-top: 70px;
     margin-bottom: 25px;
     font-style: inherit;
+    color: #1c1e21;
     
 }
 .sect-l .sous-text{
@@ -134,19 +138,22 @@ section ul li a img{
     text-align: center;
     line-height: 25px;
     font-size: 17px;
+    margin-bottom: 2%;
 }
 .sect-l .sous-text a{
     text-decoration: none;
     color: #39b3ed;
+    
 }
 .sect-l .sous-sect{
-    width: 32%;
+    width: 50%;
     height: 350px;
     
     margin: 0 auto;
-    margin-top: 7%;
+    
 
 }
+
 .sect-r .sect-r1{
     width: 40%;
     height: 273px;
@@ -157,4 +164,94 @@ section ul li a img{
 .sect-r .sect-r1 img{
     width: 100%;
     height: 100%;
+}
+.sect-r .sect-r2 .text-r2-1{
+    text-align: center;
+    font-size: 13px;
+    font-family: "Segoe UI";
+}
+.sect-r .sect-r2 .text-r2-2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.sect-r .sect-r2 .text-r2-3{
+    
+    width: 70%;
+    margin: 3% auto;
+    text-align: center;
+    font-size: 15px;
+}
+ .container .btn{
+    width: 20%;
+    height:55px;
+    margin: 50px auto;
+    border: 2px solid #77d7c8;
+    border-radius: 40px;
+    
+ }
+ .container .btn a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color: #1cb39b;
+     margin: 18px 55px;
+     width: 100%;
+     height: 100%;
+     display: block;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19px;
+     letter-spacing: .071em;
+     white-space: nowrap;
+ }
+ footer{
+    width: 100%;
+    height: 230px;
+    background-color: #273443;
+ }
+ footer .grid-container{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     width: 40%;
+     margin: 0 auto;
+
+ }
+ footer .grid-container .grid-item{
+    
+    margin: 10%;
+
+ }
+ footer .grid-container .grid-item h4{
+     text-align: start;
+     color: rgb(255, 255, 255, .6);
+     margin-bottom: 22px;
+     font-size: 12px;
+     font-weight: 600;
+     letter-spacing: .08em;
+
+ }
+ .grid-container .grid-item a{
+     text-decoration: none;
+     color: white;
+     display: block;
+ }
+.grid-container .grid-item a:hover{
+    text-decoration: underline;
+}
+footer .copy{
+    width: 100%;
+    height: 60px;
+    background-color: #232f3c;
+    margin-top: 0px;
+}
+.copy .copy1 .rit{
+    color: rgb(255, 255, 255, .6);
+
+
+}
+.copy .copy1{
+    width: 39%;
+    margin: 0 auto;
+    
+    border: 1px solid red;
 }
