@@ -9,6 +9,9 @@ header{
     width: 100%;
     height: 90px;
     background-color: #1ebea5;
+    position: fixed;
+    top: 0;
+    
     
 }
 header .logo{
@@ -16,6 +19,7 @@ header .logo{
     width: 30%;
     height: 60px;
     margin-top: 15px;
+    margin-left: 15%;
     
 }
 header .logo a{
@@ -33,6 +37,7 @@ header .logo img{
 header nav{
     float: right;
     margin-top: 40px;
+    margin-right: 15%;
     
 }
 header nav ul li{
@@ -252,6 +257,10 @@ footer .copy{
 .copy .copy1{
     width: 39%;
     margin: 0 auto;
+    padding: 15px 0;
     
-    border: 1px solid red;
+}
+.copy .copy1 .rit2{
+    color: white;
+    margin-left: 20%;
 }
